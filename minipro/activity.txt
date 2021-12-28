@@ -1,0 +1,21 @@
+agenda- end product(marks)
+two phases
+
+
+team of 3
+first phase
+some template of website
+-simple
+-impressive
+-compulsory navigation bar
+-pattern of colors(follow theme)
+-responsive compulsory
+-login is compulsory(if you can do password matching) you can
+-feedback counter(optional)
+-content page(optional)
+-header and footer
+-sign up and sign in
+-sign up different registration page
+-contact details
+
+second phase
