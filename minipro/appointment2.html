@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script type="text/javascript" src="/scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/scripts/moment.min.js"></script>
+    <script type="text/javascript" src="/scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/scripts/bootstrap-datetimepicker.*js"></script>
+</head>
+
+<body>
+
+    <div class="d-flex align-items-center justify-content-center" style="width : 100% ; height: 100vh;">
+        <div class="text-dark" style="width: 40%; height: 80vh; border-radius: 50px; ">
+            <div class="mb-3 m-3 mx-6">
+                <label for="exampleFormControlInput1" class="fs-1 text-danger form-label"
+                    style="font-family: cursive;">Contact Information</label>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">First Name :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Last Name :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Last Name">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Mobile :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g +91-1234512345">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">If member provide your Member-ID :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g ID-1234512345">
+            </div>
+            <div class="form-check mx-3">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label text-dark" for="flexCheckChecked">
+                    Your information is safe with us!! &#129309
+                </label>
+            </div>
+        </div>
+        <div class="text-dark mx-4" style="width: 40%; height: 80vh; border-radius: 50px; ">
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="fs-1 text-danger form-label"
+                    style="font-family: cursive;">Scheduling Things</label>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Purpose of Visit :</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Select Purpose of Visit</option>
+                    <option value="1">Hair Cut</option>
+                    <option value="2">Shaving</option>
+                    <option value="3">Grooming</option>
+                    <option value="4">Hair Color</option>
+                    <option value="5">Spa and Massage</option>
+                    <option value="6">Products Consultancy</option>
+                    <option value="7">!! Nail's Art !!</option>
+                    <option value="8">Consultant's Appointment</option>
+                    <option value="9">!! Tattoo !!</option>
+                </select>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Our Timings 8:00 am to 12:00 pm, Mon to Sun
+                    :</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Preferable Time Frame</option>
+                    <option value="1">8:00 am - 10:00 am</option>
+                    <option value="2">10:00 am - 12:00 pm</option>
+                    <option value="3">12:00 pm - 2:00 pm</option>
+                    <option value="4">2:00 pm - 3:00 pm !!!!(LUNCH TIME)!!!!</option>
+                    <option value="5">3:00 pm - 5:00 pm</option>
+                    <option value="6">5:00 pm - 7:00 pm</option>
+                    <option value="7">7:00 pm - 9:00 pm</option>
+                    <option value="8">9:00 pm - 11:00 pm</option>
+                </select>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Who is your Stylist :</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Book an appointment with</option>
+                    <option value="1">Mr. Javed Habir (Pro-Stylist)</option>
+                    <option value="2">Mrs. Silvana Sterling (Hair Color Pro)</option>
+                    <option value="3">Mr. Subodh Malpure (Nail Artist-Pro)</option>
+                    <option value="4">Mr. Somnath Bendekar(Pro-Tattoo Artist)</option>
+                    <option value="5">Dr. Shahrukh Khan(Hair and Skin Consultant)</option>
+                    <option value="6">Dr. Alia Bhatt(Phd.Dermatology)</option>
+                    <option value="7">Dr. Priyanka Chopda(Phd.Dermatology)</option>
+                    <option value="8">Mrs. Janvi Kapoor(Cosmetics Expert)</option>
+                    <option value="9">Mr. Fardeen Shaikh(Barber)</option>
+                    <option value="10">Ms. Khushi Kapoor(Barber)</option>
+                    <option value="11">Mr. Amit Shah(Spa and Massage Expert)</option>
+                    <option value="12">Ms. Swati Saraswat(Spa and Massage Expert)</option>
+                </select>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Date and Time Select :</label>
+                <input type="datetime-local" class="mx-6" style="border-radius: 4px; height: 5vh;  width: 90%; ">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Comments :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                    placeholder="!!!! Instructions !!!!">
+            </div>
+            <div class="row m-3 mt-3">
+                <button type="button" class="btn btn-success btn-lg"
+                    style="font-family: cursive; width: 200px; margin-left: 180px;">Confirm Booking</button>
+                </center>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="d-flex bg-dark text-light align-items-center justify-content-center"
+        style="width : 100% ; height: 100vh;">
+        <div style="width: 40%; height: 80vh; border-radius: 50px; ">
+            <div class="mb-3 m-3 mx-6">
+                <label for="exampleFormControlInput1" class="fs-1 text-danger form-label">Contact Information</label>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">First Name :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Last Name :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Last Name">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Mobile :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g +91-1234512345">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">If member provide your Member-ID :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g ID-1234512345">
+            </div>
+            <div class="form-check mx-3">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                    Your information is safe with us!! &#129309
+                </label>
+            </div>
+        </div>
+        <div class="mx-4" style="width: 40%; height: 80vh; border-radius: 50px; ">
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="fs-1 text-danger form-label">Scheduling Things</label>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Purpose of Visit :</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Select Purpose of Visit</option>
+                    <option value="1">Hair Cut</option>
+                    <option value="2">Shaving</option>
+                    <option value="3">Grooming</option>
+                    <option value="4">Hair Color</option>
+                    <option value="5">Spa and Massage</option>
+                    <option value="6">Products Consultancy</option>
+                    <option value="7">!! Nail's Art !!</option>
+                    <option value="8">Consultant's Appointment</option>
+                    <option value="9">!! Tattoo !!</option>
+                </select>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Our Timings 8:00 am to 12:00 pm, Mon to Sun
+                    :</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Preferable Time Frame</option>
+                    <option value="1">8:00 am - 10:00 am</option>
+                    <option value="2">10:00 am - 12:00 pm</option>
+                    <option value="3">12:00 pm - 2:00 pm</option>
+                    <option value="4">2:00 pm - 3:00 pm !!!!(LUNCH TIME)!!!!</option>
+                    <option value="5">3:00 pm - 5:00 pm</option>
+                    <option value="6">5:00 pm - 7:00 pm</option>
+                    <option value="7">7:00 pm - 9:00 pm</option>
+                    <option value="8">9:00 pm - 11:00 pm</option>
+                </select>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Who is your Stylist :</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Book an appointment with</option>
+                    <option value="1">Mr. Javed Habir (Pro-Stylist)</option>
+                    <option value="2">Mrs. Silvana Sterling (Hair Color Pro)</option>
+                    <option value="3">Mr. Subodh Malpure (Nail Artist-Pro)</option>
+                    <option value="4">Mr. Somnath Bendekar(Pro-Tattoo Artist)</option>
+                    <option value="5">Dr. Shahrukh Khan(Hair and Skin Consultant)</option>
+                    <option value="6">Dr. Alia Bhatt(Phd.Dermatology)</option>
+                    <option value="7">Dr. Priyanka Chopda(Phd.Dermatology)</option>
+                    <option value="8">Mrs. Janvi Kapoor(Cosmetics Expert)</option>
+                    <option value="9">Mr. Fardeen Shaikh(Barber)</option>
+                    <option value="10">Ms. Khushi Kapoor(Barber)</option>
+                    <option value="11">Mr. Amit Shah(Spa and Massage Expert)</option>
+                    <option value="12">Ms. Swati Saraswat(Spa and Massage Expert)</option>
+                </select>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Date and Time Select :</label>
+                <input type="datetime-local" class="mx-6" style="border-radius: 4px; height: 5vh;  width: 90%; ">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Comments :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                    placeholder="!!!! Instructions !!!!">
+            </div>
+            <div class="row m-3 mt-3">
+                <button type="button" class="btn btn-success btn-lg"
+                    style="font-family: cursive; width: 200px; margin-left: 180px;">Finalize and Book</button>
+                </center>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="d-flex text-light align-items-center justify-content-center" style="width : 100% ; height: 100vh;">
+        <div class="bg-dark" style="width: 40%; height: 80vh; border-radius: 50px; ">
+            <div class="mb-3 m-3 mx-6">
+                <label for="exampleFormControlInput1" class="fs-1 text-danger form-label"
+                    style="font-family: cursive; margin-left: 100px;">Contact Information</label>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Name :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Last Name :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Last Name">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Mobile :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g +91-1234512345">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">If member provide your Member-ID :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g ID-1234512345">
+            </div>
+            <div class="form-check mx-3">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                    Your information is safe with us!! &#129309
+                </label>
+            </div>
+        </div>
+        <div class="bg-dark mx-4" style="width: 40%; height: 80vh; border-radius: 50px; ">
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="fs-1 text-danger form-label"
+                    style="font-family: cursive; margin-left: 100px;">Scheduling Things</label>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Purpose of Visit :</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Select Purpose of Visit</option>
+                    <option value="1">Hair Cut</option>
+                    <option value="2">Shaving</option>
+                    <option value="3">Grooming</option>
+                    <option value="4">Hair Color</option>
+                    <option value="5">Spa and Massage</option>
+                    <option value="6">Products Consultancy</option>
+                    <option value="7">!! Nail's Art !!</option>
+                    <option value="8">Consultant's Appointment</option>
+                    <option value="9">!! Tattoo !!</option>
+                </select>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Our Timings 8:00 am to 12:00 pm, Mon to Sun
+                    :</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Preferable Time Frame</option>
+                    <option value="1">8:00 am - 10:00 am</option>
+                    <option value="2">10:00 am - 12:00 pm</option>
+                    <option value="3">12:00 pm - 2:00 pm</option>
+                    <option value="4">2:00 pm - 3:00 pm !!!!(LUNCH TIME)!!!!</option>
+                    <option value="5">3:00 pm - 5:00 pm</option>
+                    <option value="6">5:00 pm - 7:00 pm</option>
+                    <option value="7">7:00 pm - 9:00 pm</option>
+                    <option value="8">9:00 pm - 11:00 pm</option>
+                </select>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Who is your Stylist :</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Book an appointment with</option>
+                    <option value="1">Mr. Javed Habir (Pro-Stylist)</option>
+                    <option value="2">Mrs. Silvana Sterling (Hair Color Pro)</option>
+                    <option value="3">Mr. Subodh Malpure (Nail Artist-Pro)</option>
+                    <option value="4">Mr. Somnath Bendekar(Pro-Tattoo Artist)</option>
+                    <option value="5">Dr. Shahrukh Khan(Hair and Skin Consultant)</option>
+                    <option value="6">Dr. Alia Bhatt(Phd.Dermatology)</option>
+                    <option value="7">Dr. Priyanka Chopda(Phd.Dermatology)</option>
+                    <option value="8">Mrs. Janvi Kapoor(Cosmetics Expert)</option>
+                    <option value="9">Mr. Fardeen Shaikh(Barber)</option>
+                    <option value="10">Ms. Khushi Kapoor(Barber)</option>
+                    <option value="11">Mr. Amit Shah(Spa and Massage Expert)</option>
+                    <option value="12">Ms. Swati Saraswat(Spa and Massage Expert)</option>
+                </select>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Date and Time Select :</label>
+                <input type="datetime-local" class="mx-6" style="border-radius: 4px; height: 5vh;  width: 90%; ">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Comments :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                    placeholder="!!!! Instructions !!!!">
+            </div>
+            <div class="row m-3 mt-3">
+                <button type="button" class="btn btn-success btn-lg"
+                    style="font-family: cursive; width: 200px; margin-left: 180px;">Finalize and Book</button>
+                </center>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="d-flex bg-dark  mt-2 text-light align-items-center justify-content-center"
+        style="width : 100% ; height: 150vh;">
+        <div class="mb-1" style="width: 50%; height: 150vh; border-radius: 10px; ">
+            <div class="mb-3 mt-5 mx-6" style="margin-left: 180px;">
+                <label for="exampleFormControlInput1" class="fs-1 text-danger form-label"
+                    style="font-family: cursive;">Book an Appointment</label>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">&#128102 Name &#128103 :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g Tony Stark">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">&#128241 Mobile &#128241 :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g +91-1234512345">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">&#128231 Email address &#128231 :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">If member provide your Member-ID <b
+                        class="text-danger">(Optional)</b> :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g ID-1234512345">
+            </div>
+
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Purpose of Visit :</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Select Purpose of Visit</option>
+                    <option value="1">Hair Cut</option>
+                    <option value="2">Shaving</option>
+                    <option value="3">Grooming</option>
+                    <option value="4">Hair Color</option>
+                    <option value="5">Spa and Massage</option>
+                    <option value="6">Products Consultancy</option>
+                    <option value="7">!! Nail's Art !!</option>
+                    <option value="8">Consultant's Appointment</option>
+                    <option value="9">!! Tattoo !!</option>
+                </select>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label"> &#128337 Timings 8:00 am to 12:00 pm, (Monday
+                    to Sun) &#128337 :</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Preferable Time Frame</option>
+                    <option value="1">8:00 am - 10:00 am</option>
+                    <option value="4"></option>
+                    <option value="2">10:00 am - 12:00 pm</option>
+                    <option value="4"></option>
+                    <option value="3">12:00 pm - 2:00 pm</option>
+                    <option value="4"></option>
+                    <option value="5">3:00 pm - 5:00 pm</option>
+                    <option value="4"></option>
+                    <option value="6">5:00 pm - 7:00 pm</option>
+                    <option value="4"></option>
+                    <option value="7">7:00 pm - 9:00 pm</option>
+                    <option value="4"></option>
+                    <option value="8">9:00 pm - 11:00 pm</option>
+                </select>
+                <p>2:00 pm - 3:00 pm !!!!(LUNCH TIME) &#127858 &#127860 &#127791 !!!!</p>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Who is your Stylist :</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Book an appointment with</option>
+                    <option value="1">Mr. Javed Habir (Pro-Stylist)</option>
+                    <option value="2">Mrs. Silvana Sterling (Hair Color Pro)</option>
+                    <option value="3">Mr. Subodh Malpure (Nail Artist-Pro)</option>
+                    <option value="4">Mr. Somnath Bendekar(Pro-Tattoo Artist)</option>
+                    <option value="5">Dr. Shahrukh Khan(Hair and Skin Consultant)</option>
+                    <option value="6">Dr. Alia Bhatt(Phd.Dermatology)</option>
+                    <option value="7">Dr. Priyanka Chopda(Phd.Dermatology)</option>
+                    <option value="8">Mrs. Janvi Kapoor(Cosmetics Expert)</option>
+                    <option value="9">Mr. Fardeen Shaikh(Barber)</option>
+                    <option value="10">Ms. Khushi Kapoor(Barber)</option>
+                    <option value="11">Mr. Amit Shah(Spa and Massage Expert)</option>
+                    <option value="12">Ms. Swati Saraswat(Spa and Massage Expert)</option>
+                </select>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label"> &#128197 Date and Time Select &#128197
+                    :</label>
+                <input type="datetime-local" class="mx-6" style="border-radius: 4px; height: 5vh;  width: 90%; ">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">&#x270D Comments &#x270D :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" style="height: 10vh;"
+                    placeholder="!!!! Instructions !!!!">
+            </div>
+            <div class="form-check mx-3">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                    Your information is safe with us!! &#129309
+                </label>
+            </div>
+            <div class="row m-3 mt-3">
+                <button type="button" class="btn btn-success btn-lg"
+                    style="font-family: cursive; width: 200px; margin-left: 200px;">Finalize and Book</button>
+                </center>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="d-flex mt-2 text-light align-items-center justify-content-center" style="width : 100% ; height: 150vh;">
+        <div class="mb-1 bg-dark " style="width: 50%; height: 150vh; border-radius: 50px; ">
+            <div class="mb-3 mt-5 mx-6" style="margin-left: 180px;">
+                <label for="exampleFormControlInput1" class="fs-1 text-danger form-label"
+                    style="font-family: cursive;">Book an Appointment</label>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">&#128102 Name &#128103 :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g Tony Stark">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">&#128241 Mobile &#128241 :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g +91-1234512345">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">&#128231 Email address &#128231 :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">If member provide your Member-ID <b
+                        class="text-danger">(Optional)</b> :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g ID-1234512345">
+            </div>
+
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Purpose of Visit :</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Select Purpose of Visit</option>
+                    <option value="1">Hair Cut</option>
+                    <option value="2">Shaving</option>
+                    <option value="3">Grooming</option>
+                    <option value="4">Hair Color</option>
+                    <option value="5">Spa and Massage</option>
+                    <option value="6">Products Consultancy</option>
+                    <option value="7">!! Nail's Art !!</option>
+                    <option value="8">Consultant's Appointment</option>
+                    <option value="9">!! Tattoo !!</option>
+                </select>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label"> &#128337 Timings 8:00 am to 12:00 pm, (Monday
+                    to Sun) &#128337 :</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Preferable Time Frame</option>
+                    <option value="1">8:00 am - 10:00 am</option>
+                    <option value="4"></option>
+                    <option value="2">10:00 am - 12:00 pm</option>
+                    <option value="4"></option>
+                    <option value="3">12:00 pm - 2:00 pm</option>
+                    <option value="4"></option>
+                    <option value="5">3:00 pm - 5:00 pm</option>
+                    <option value="4"></option>
+                    <option value="6">5:00 pm - 7:00 pm</option>
+                    <option value="4"></option>
+                    <option value="7">7:00 pm - 9:00 pm</option>
+                    <option value="4"></option>
+                    <option value="8">9:00 pm - 11:00 pm</option>
+                </select>
+                <p>2:00 pm - 3:00 pm !!!!(LUNCH TIME) &#127858 &#127860 &#127791 !!!!</p>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">Who is your Stylist :</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Book an appointment with</option>
+                    <option value="1">Mr. Javed Habir (Pro-Stylist)</option>
+                    <option value="2">Mrs. Silvana Sterling (Hair Color Pro)</option>
+                    <option value="3">Mr. Subodh Malpure (Nail Artist-Pro)</option>
+                    <option value="4">Mr. Somnath Bendekar(Pro-Tattoo Artist)</option>
+                    <option value="5">Dr. Shahrukh Khan(Hair and Skin Consultant)</option>
+                    <option value="6">Dr. Alia Bhatt(Phd.Dermatology)</option>
+                    <option value="7">Dr. Priyanka Chopda(Phd.Dermatology)</option>
+                    <option value="8">Mrs. Janvi Kapoor(Cosmetics Expert)</option>
+                    <option value="9">Mr. Fardeen Shaikh(Barber)</option>
+                    <option value="10">Ms. Khushi Kapoor(Barber)</option>
+                    <option value="11">Mr. Amit Shah(Spa and Massage Expert)</option>
+                    <option value="12">Ms. Swati Saraswat(Spa and Massage Expert)</option>
+                </select>
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label"> &#128197 Date and Time Select &#128197
+                    :</label>
+                <input type="datetime-local" class="mx-6" style="border-radius: 4px; height: 5vh;  width: 90%; ">
+            </div>
+            <div class="mb-3 m-3">
+                <label for="exampleFormControlInput1" class="form-label">&#x270D Comments &#x270D :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" style="height: 10vh;"
+                    placeholder="!!!! Instructions !!!!">
+            </div>
+            <div class="form-check mx-3">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                    Your information is safe with us!! &#129309
+                </label>
+            </div>
+            <div class="row m-3 mt-3">
+                <button type="button" class="btn btn-success btn-lg"
+                    style="font-family: cursive; width: 200px; margin-left: 200px;">Finalize and Book</button>
+                </center>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

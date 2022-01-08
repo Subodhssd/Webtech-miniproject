@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), black), url(images/salon4.jpg);
+  height: 100vh;
+}
+.avenue{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 40px;
+}
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid white;
+  background-color: linear-gradient(rgba(0, 0, 0, 0.5), black);
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login
+  .container
+  #login-row
+  #login-column
+  #login-box
+  #login-form
+  #register-link {
+  margin-top: -85px;
+}
